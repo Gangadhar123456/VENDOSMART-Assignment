@@ -1,0 +1,71 @@
+.ul-movisList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    
+}
+
+
+.next-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 2px;
+  }
+  
+  .next-button:hover {
+    background-color: #2980b9;
+  }
+
+  .prev-button{
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 2px;
+  }
+
+  .prev-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .movieSearch-Container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  input{
+    width: 50vw;
+    height: 6vh;
+    border-radius: 500px;
+  }
+  .search-button{
+    background-color: rgb(91, 91, 91);
+    color: #fff;
+    height: 7vh;
+    width: 10vw;
+    border-radius: 50px;
+  }
+
+  .search-button:hover{
+ background-color: rgb(69, 67, 67);
+  }
+
+  .movie-search-name{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 7vh;
+    width: 10vw;
+    border-radius: 50px;
+  }
